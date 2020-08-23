@@ -6,7 +6,7 @@ import { teal } from '@material-ui/core/colors'
 const AppHeader = () => {
     return (
         <AppBar className='app-bar'
-                position="static"
+                position='static'
                 style={{background: teal[500]}}>
             <Typography variant='h3' align='center'>
                 Todo List App

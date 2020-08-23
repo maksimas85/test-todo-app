@@ -49,7 +49,7 @@ export default class TodoListItem extends Component {
                             tabIndex={-1}
                             checked={checkedB}
                             onChange={onToggleDone}
-                            name="checkedB"
+                            name='checkedB'
                             color='primary'
                         />
                     }
@@ -57,7 +57,7 @@ export default class TodoListItem extends Component {
 
                 <form
                     noValidate
-                    autoComplete="off"
+                    autoComplete='off'
                     onSubmit={this.onSubmit}
 
                 >
@@ -84,8 +84,8 @@ export default class TodoListItem extends Component {
 
                 <Button
                     tabIndex={-1}
-                    variant="contained"
-                    color="secondary"
+                    variant='contained'
+                    color='secondary'
                     onClick={ onDeleted }>
                     <DeleteForeverIcon />
                 </Button>

@@ -32,13 +32,13 @@ export default class ItemAddForm extends Component {
                 style={{margin: '10px'}}>
                 <form
                     noValidate
-                    autoComplete="off"
+                    autoComplete='off'
                     onSubmit={this.onSubmit}>
 
                     <TextField
                         autoFocus={true}
                         label='Add a task'
-                        variant="outlined"
+                        variant='outlined'
                         color='secondary'
                         margin='normal'
                         style={{width: '410px'}}
@@ -48,9 +48,9 @@ export default class ItemAddForm extends Component {
 
                     <Button
                         tabIndex={-1}
-                        size="large"
-                        variant="outlined"
-                        color="primary"
+                        size='large'
+                        variant='outlined'
+                        color='primary'
                         type='submit'
                         style={{margin: '16px 0 0 16px',
                             background: teal[500],
